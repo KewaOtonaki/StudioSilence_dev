@@ -2,8 +2,8 @@
     "type": "index",
     "path": "/pages/",
     "children" : [
-        { "type": "file", "path": "top.html"},
-        { "type": "file", "path": "profile.html"},
-        { "type": "directory", "path": "activity"}
+        { "id":"menu-top", "type": "file", "path": "top.html", "title": "top"},
+        { "id":"menu-profile", "type": "file", "path": "profile.html", "title": "profile"},
+        { "id":"menu-activity", "type": "directory", "path": "activity", "title": "activity"}
     ] 
 }
