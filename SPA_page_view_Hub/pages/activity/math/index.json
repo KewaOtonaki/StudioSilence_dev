@@ -1,0 +1,10 @@
+{
+    "id": "menu-activity-math",
+    "type": "index",
+    "path": "/pages/activity/math/",
+    "children" : [
+        { "id":"menu-activity-math-1", "type": "file", "path": "1.html", "title": "はじめに"},
+        { "id":"menu-activity-math-2", "type": "file", "path": "2.html", "title": "数と図形"},
+        { "id":"menu-activity-math-3", "type": "file", "path": "3.html", "title": "測量"}
+    ] 
+}

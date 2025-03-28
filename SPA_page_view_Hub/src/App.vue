@@ -1,19 +1,17 @@
 <script setup>
-import TopPage from './components/TopPage.vue'
+import Contents from './components/Contents.vue'
 import FetchMenu from './components/FetchMenu.vue'
 </script>
 
 <template>
-  <header>
-    <TopPage />
-  
-  </header>
-
-  <main>
+  <div class="app-wrap">
     <FetchMenu />
-  </main>
+    <Contents />
+  </div>
 </template>
 
 <style scoped>
-
+  .app-wrap {
+    display: flex;
+  }
 </style>

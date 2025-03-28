@@ -1,9 +1,11 @@
 {
+    "id": "menu",
     "type": "index",
     "path": "/pages/",
     "children" : [
         { "id":"menu-top", "type": "file", "path": "top.html", "title": "top"},
         { "id":"menu-profile", "type": "file", "path": "profile.html", "title": "profile"},
-        { "id":"menu-activity", "type": "directory", "path": "activity", "title": "activity"}
+        { "id":"menu-activity", "type": "directory", "path": "activity", "title": "activity"},
+        { "id":"menu-contact", "type": "file", "path": "contact.html", "title": "contact"}
     ] 
 }

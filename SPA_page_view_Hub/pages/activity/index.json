@@ -1,0 +1,10 @@
+{
+    "id": "menu-activity",
+    "type": "index",
+    "path": "/pages/activity/",
+    "children" : [
+        { "id":"menu-activity-math", "type": "directory", "path": "math", "title": "アンダンテで数学を"},
+        { "id":"menu-activity-phylo", "type": "directory", "path": "phy", "title": "私の哲学"},
+        { "id":"menu-activity-music", "type": "directory", "path": "music", "title": "Music"}
+    ] 
+}
