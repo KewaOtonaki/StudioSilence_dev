@@ -10,6 +10,7 @@
     const html_data = await data.text();
     let element = document.getElementById("fetch-area");
     element.innerHTML = getBodyContent(html_data);
+    RenderMathJax();
   };
 
   function listMenu(parent) {
@@ -57,7 +58,6 @@ listMenu("/pages")
 <template>
     <div class="wrap">
         <h1> Studio Silence </h1>
-
         <ul id="menu">
         </ul>
     </div>

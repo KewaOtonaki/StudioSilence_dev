@@ -1,4 +1,5 @@
 <script>
+ 
 </script>
 
 <template>
@@ -6,7 +7,7 @@
 </template>
 
 <style scoped>
-  .fetch-area {
+  #fetch-area {
     width: 60%;
   }
 </style>

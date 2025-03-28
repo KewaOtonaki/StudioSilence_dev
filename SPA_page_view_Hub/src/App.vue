@@ -1,6 +1,11 @@
 <script setup>
 import Contents from './components/Contents.vue'
 import FetchMenu from './components/FetchMenu.vue'
+
+function RenderMathJax(){
+  MathJax.typeset();
+}
+
 </script>
 
 <template>
