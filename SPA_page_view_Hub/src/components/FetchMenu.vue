@@ -66,7 +66,6 @@ listMenu("/pages")
 <style scoped>
  .wrap {
     width: 30%;
-    overflow: hidden;
  }
 
 </style>
