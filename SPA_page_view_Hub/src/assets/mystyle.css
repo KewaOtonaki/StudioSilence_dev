@@ -30,6 +30,14 @@
   border-radius: 15px;
 }
 
+.padding-15px {
+  padding: 15px;
+}
+
+.margin-0px {
+  margin: 0px;
+}
+
 .trio {
   width: 30%;
   margin: 1%;
@@ -37,6 +45,13 @@
 
 .menu-title {
   background : #995555;
+  color: white;
+  font-weight : bold;
+  height: 3em;
+}
+
+.content-title {
+  background : #cc5555;
   color: white;
   font-weight : bold;
   height: 3em;

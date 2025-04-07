@@ -1,17 +1,12 @@
 <script setup>
 import Contents from './components/Contents.vue'
 import FetchMenu from './components/FetchMenu.vue'
-
-function RenderMathJax(){
-  MathJax.typeset();
-}
-
 </script>
 
 <template>
-  <div class="app-wrap">
+  <div class="app-wrap margin-0px">
     <FetchMenu />
-    <Contents />
+    <Contents class="margin-0px" />
   </div>
 </template>
 
