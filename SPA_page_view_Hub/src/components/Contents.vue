@@ -8,6 +8,6 @@
 
 <style scoped>
   #fetch-area {
-    width: 60%;
+    width: 70%;
   }
 </style>
