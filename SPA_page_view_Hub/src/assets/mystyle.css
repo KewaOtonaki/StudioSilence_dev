@@ -29,3 +29,15 @@
 .round-border {
   border-radius: 15px;
 }
+
+.trio {
+  width: 30%;
+  margin: 1%;
+}
+
+.menu-title {
+  background : #995555;
+  color: white;
+  font-weight : bold;
+  height: 3em;
+}

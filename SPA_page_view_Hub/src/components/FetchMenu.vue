@@ -57,7 +57,7 @@ listMenu("/pages")
 
 <template>
     <div class="wrap">
-        <h1> Studio Silence </h1>
+        <h1 class="menu-title"> Studio Silence </h1>
         <ul id="menu">
         </ul>
     </div>
