@@ -1,17 +1,22 @@
 <script setup>
-import Contents from './components/Contents.vue'
-import FetchMenu from './components/FetchMenu.vue'
+import Title from "./components/Title.vue"
+import MathContents from "./components/math/MathContents.vue"
 </script>
 
 <template>
-  <div class="app-wrap margin-0px">
-    <FetchMenu />
-    <Contents class="margin-0px" />
+  <div class="screen">
+    <Title></Title>
+    <MathContents></MathContents>
   </div>
 </template>
 
 <style scoped>
-  .app-wrap {
-    display: flex;
+  .screen{
+    background-image: url("/src/assets/img/background49.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    /*overflow: hidden;*/
   }
+
 </style>
