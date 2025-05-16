@@ -1,22 +1,20 @@
 <script setup>
 import Title from "./components/Title.vue"
+import Menu from "./components/Menu.vue"
 import MathContents from "./components/math/MathContents.vue"
 </script>
 
 <template>
-  <div class="screen">
+  <div class="bg">
     <Title></Title>
-    <MathContents></MathContents>
+    <Menu></Menu>
+  
+    <div class="content">
+      <MathContents></MathContents>
+    </div>
   </div>
 </template>
 
 <style scoped>
-  .screen{
-    background-image: url("/src/assets/img/background49.png");
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    /*overflow: hidden;*/
-  }
 
 </style>
