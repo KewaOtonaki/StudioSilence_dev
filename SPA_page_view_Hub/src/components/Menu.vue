@@ -1,10 +1,18 @@
+<script setup>
+const emit = defineEmits(['select'])
+
+function select(name) {
+  emit('select', name)
+}
+</script>
+
 
 <template>
     <div>
-        <div class="inline-block menu-item"><a href="#">数学</a></div>
-        <div class="inline-block menu-item"><a href="#">コンピュータ</a></div>
-        <div class="inline-block menu-item"><a href="#">哲学</a></div>
-        <div class="inline-block menu-item"><a href="#">音楽</a></div>
+        <div class="inline-block menu-item"><a href="#" @click="select('mathematics')">数学</a></div>
+        <div class="inline-block menu-item"><a href="#" @click="select('computer')">コンピュータ</a></div>
+        <div class="inline-block menu-item"><a href="#" @click="select('phylosophy')">哲学</a></div>
+        <div class="inline-block menu-item"><a href="#" @click="select('music')">音楽</a></div>
     </div>
 </template>
 
